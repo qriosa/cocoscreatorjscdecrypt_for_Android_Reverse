@@ -1,0 +1,10 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^7.13.0",
+    "pako": "^2.0.3",
+    "xxtea-node": "^1.1.4"
+  }
+}
