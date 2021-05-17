@@ -1,4 +1,6 @@
 # cocoscreatorjscdecrypt_for_Android_Reverse
+[TOC]
+
 ## ZH
 
 ### 背景
