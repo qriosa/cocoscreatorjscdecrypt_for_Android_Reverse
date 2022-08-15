@@ -1,6 +1,6 @@
 # cocoscreatorjscdecrypt_for_Android_Reverse
 
-[TOC]
+[ZH](https://github.com/qriosa/cocoscreatorjscdecrypt_for_Android_Reverse#zh)|[EN](https://github.com/qriosa/cocoscreatorjscdecrypt_for_Android_Reverse#en)
 
 ## ZH
 
@@ -43,7 +43,7 @@
 
 This tool is just forked from [cocscreatorjscdecrypt](https://github.com/luckyaibin/cocoscreatorjscdecrypt), and then made a simple modification. It makes it easier to decrypt the `.jsc` in APK files during Android reverse analysis.
 
-The readme of the original tool is as follows.
+The readme of the original tool is showing below:
 
 > cocoscreator 官方在编译的时候只给了加密的方法，而生成jsc之后没有进行解密的，这里给出一个开箱即用的方法。
 >
@@ -62,7 +62,7 @@ The readme of the original tool is as follows.
 3. Run the command `npm install xxtea-node npm install pako` in the current project folder. 
 4. Run the command `python decodejsc.py APK_filepath/xxx.apk` .
 
-After running, the program will decompress `xxx.apk` to `APK_filepath` and then decrypt all the `yyy.jsc` files in it and save them to the same directory as the original cipher file `yyy.jsc`, named `yyy.jsc.js`.
+After running, the program will decompress `xxx.apk` to `APK_filepath` and then decrypt all the `yyy.jsc` files in `APK_filepath` and save them to the same directory. Rename the original file with the name `yyy.jsc` to `yyy.jsc.js`.
 
 
 
